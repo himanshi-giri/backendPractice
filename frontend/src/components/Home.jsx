@@ -1,10 +1,10 @@
 
 
-function Home(){
+function Home({onNavigate}){
     return (
      <>
-     <h1>Your First Componenet Heading</h1>
-     <p>Pehla component hai dekhte hai kaise mount hota h or chize kaise chalti hai isme</p>
+     <h1>Home Page</h1>
+     <button onClick={()=>onNavigate()}>Click kr Bhai Dr Mat</button>
      </>
     );
 }
